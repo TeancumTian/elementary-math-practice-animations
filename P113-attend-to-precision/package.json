@@ -1,0 +1,28 @@
+{
+  "name": "p113-attend-to-precision",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Grade 2 MP.6 'Attend to precision' interactive math-message repair shop (Next.js + React + TypeScript + SVG).",
+  "scripts": {
+    "dev": "next dev -p 3113",
+    "build": "next build",
+    "start": "next start -p 3113",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "screenshots": "playwright test e2e/screenshots.spec.ts"
+  },
+  "dependencies": {
+    "next": "^16.3.6",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2"
+  }
+}
